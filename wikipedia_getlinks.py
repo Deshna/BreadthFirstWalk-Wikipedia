@@ -48,7 +48,7 @@ def find_links(title):
                 counter = counter + 1
         
             print data
-            data.to_csv('gephi_ip.csv')
+            data.to_csv('gephi_ip.csv', mode = 'a')
         run()
     
 title_list = []
